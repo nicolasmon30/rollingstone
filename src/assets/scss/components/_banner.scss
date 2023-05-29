@@ -1,0 +1,49 @@
+@use '../base/config' as con;
+@use '../base/functions' as fun;
+.banner{
+    width: 100%;
+    height: 760px;
+    .splide{
+        height: 100%;
+        &__track{
+            height: 100%;
+        }
+        &__slide{
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+    }
+    &__menu{
+        display: none;
+        position: absolute;
+        right: fun.toRem(120);
+        top: fun.toRem(161);
+        z-index: 9;
+        @media screen and (min-width : 767px){
+            display: block;
+        }
+        &__list{
+            list-style: none;
+            li{
+                margin: 0 0 fun.toRem(10);
+                padding: 0 0 fun.toRem(10);
+                border-bottom: 1px solid con.$white;
+                a{
+                    font-family: 'Graphik Semibold';
+                    font-size: fun.toRem(22);
+                    line-height: fun.toRem(22);
+                    color: con.$white;
+                    text-decoration: unset;
+                    @media screen and (min-width: 1560px){
+                        font-size: fun.toRem(28);
+                        line-height: fun.toRem(28);
+                    }
+                }
+            }
+        }
+    }
+}

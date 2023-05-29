@@ -1,0 +1,83 @@
+@use '../base/config'as con;
+@use '../base/functions'as fun;
+
+.accordion {
+    background-color: con.$white;
+
+    &:not(:last-of-type) {
+        margin: 0 0 fun.toRem(8);
+    }
+
+    &__title {
+        box-shadow: 0px 10px 30px rgba(con.$black, .37);
+        padding: fun.toRem(5) fun.toRem(10) fun.toRem(8);
+        position: relative;
+        cursor: pointer;
+
+        &::after {
+            content: "";
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 13px 7.5px 0 7.5px;
+            border-color: con.$black transparent transparent transparent;
+            position: absolute;
+            right: fun.toRem(10);
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        h3 {
+            font-family: 'Publico Banner Ultra';
+            font-size: fun.toRem(22);
+            line-height: fun.toRem(30);
+            @media screen and (min-width: 1280px){
+                font-size: fun.toRem(39);
+                line-height: fun.toRem(47);
+            }
+            @media screen and (min-width: 1560px){
+                font-size: fun.toRem(52);
+                line-height: fun.toRem(65);
+            }
+        }
+    }
+
+    &__option {
+        position: relative;
+        padding-left: fun.toRem(22);
+        padding-right: fun.toRem(22);
+        &:not(:last-of-type) {
+            margin: 0 0 fun.toRem(20);
+        }
+        &:first-of-type{
+            padding-top: fun.toRem(16);
+        }
+        &:last-of-type{
+            padding-bottom: fun.toRem(14);
+        }
+
+        input {
+            width: 100%;
+            position: absolute;
+            opacity: 0;
+
+            &:checked {
+                &~p {
+                    font-family: 'Graphik Bold';
+                }
+            }
+        }
+
+        p {
+            font-size: fun.toRem(17);
+            cursor: pointer;
+            @media screen and (min-width: 1280px){
+                font-size: fun.toRem(21);
+            }
+            @media screen and (min-width: 1560px){
+                font-size: fun.toRem(25);
+            }
+
+        }
+    }
+}

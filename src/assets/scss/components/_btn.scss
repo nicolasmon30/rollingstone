@@ -1,0 +1,40 @@
+@use '../base/config'as con;
+@use '../base/functions'as fun;
+
+.btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: con.$red;
+    text-align: center;
+    font-family: 'Publico Banner Ultra';
+    color: con.$white;
+    padding: 0 fun.toRem(11);
+    text-transform: uppercase;
+    text-decoration: unset;
+    border: 0;
+    width: 100%;
+    max-width: fun.toRem(130);
+    height: fun.toRem(48);
+    font-size: fun.toRem(23);
+    line-height: fun.toRem(41);
+    letter-spacing: 1px;
+    @media screen and (min-width: 1280px){
+        font-size: fun.toRem(26);
+        line-height: fun.toRem(48);
+    }
+    cursor: pointer;
+    &--small {
+        font-size: fun.toRem(15);
+        line-height: fun.toRem(27);
+        letter-spacing: 1px;
+        height: fun.toRem(34);
+        width: 100%;
+        max-width: fun.toRem(90);
+        @media screen and (min-width: 1280px) {
+            max-width: fun.toRem(130);
+            font-size: fun.toRem(22);
+            line-height: fun.toRem(40);
+        }
+    }
+}

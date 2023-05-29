@@ -1,0 +1,111 @@
+@use '../base/config'as con;
+@use '../base/functions'as fun;
+
+.modal {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &::after {
+        content: "";
+        inset: 0;
+        position: absolute;
+        background-color:rgba(con.$black, .47);
+        mix-blend-mode: multiply;
+        z-index: 1;
+    }
+
+    &__content {
+        width: 100%;
+        max-width: calc(100% - 60px);
+        background-color: con.$white;
+        padding: fun.toRem(23) fun.toRem(25) fun.toRem(33);
+        position: relative;
+        z-index: 2;
+        @media screen and (min-width: 1199px) {
+            max-width: fun.toRem(766);
+            padding: fun.toRem(69) fun.toRem(190) fun.toRem(77);
+        }
+        h3{
+            font-family: 'Publico Banner Ultra';
+            font-size: fun.toRem(24);
+            line-height: fun.toRem(31);
+            text-align: center;
+            margin: 0 0 fun.toRem(19);
+            @media screen and (min-width: 1280px) {
+                font-size: fun.toRem(32);
+                line-height: fun.toRem(40);
+            }
+            @media screen and (min-width: 1560px) {
+                font-size: fun.toRem(40);
+                line-height: fun.toRem(50);
+            }
+        }
+    }
+    &__actions{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: fun.toRem(11);
+        @media screen and (min-width: 1280px) {
+            flex-direction: row;
+        }
+    }
+}
+.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90vh;
+    background-color: rgba(con.$black, .7);
+    z-index: 12;
+    display: grid;
+    align-content: space-between;
+    padding: fun.toRem(17) fun.toRem(14) fun.toRem(33) fun.toRem(30);
+    &__top{
+        margin: 0 0 fun.toRem(38);
+        p{
+            font-family: 'Graphik Semibold';
+            font-size: fun.toRem(32);
+            line-height: fun.toRem(56);
+            color: con.$white;
+            text-transform: uppercase;
+            text-align: right;
+        }
+    }
+    &__list{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        width: max-content;
+        li{
+            margin: 0 0 fun.toRem(18);
+            padding: 0 0 fun.toRem(12);
+            width: 100%;
+            border-bottom: 1px solid con.$white;
+
+            a{
+                font-family: 'Graphik Semibold';
+                font-size: fun.toRem(35);
+                line-height: fun.toRem(35);
+                color: con.$white;
+                text-decoration: unset;
+            }
+        }
+    }
+    &__bottom{
+        justify-self: flex-end;
+        img{
+            width: fun.toRem(145);
+            height: auto;
+        }
+    }
+}

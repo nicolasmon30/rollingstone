@@ -1,0 +1,88 @@
+@use '../base/config'as con;
+@use '../base/functions'as fun;
+
+.title {
+    display: inline-block;
+    height: fun.toRem(53);
+    color: con.$white;
+    background-color: con.$red;
+    padding: fun.toRem(4) fun.toRem(12);
+    @media screen and (min-width: 1280px){
+        height: fun.toRem(71);
+    }
+    @media screen and (min-width: 1560px){
+        height: fun.toRem(90);
+    }
+    h2 {
+        font-family: 'Publico Banner Ultra';
+        font-size: fun.toRem(26);
+        line-height: fun.toRem(45);
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        @media screen and (min-width: 1280px){
+            font-size: fun.toRem(35);
+            line-height: fun.toRem(61);
+        }
+        @media screen and (min-width: 1560px){
+            font-size: fun.toRem(45);
+            line-height: fun.toRem(78);
+        }
+    }
+
+    &--outline {
+        background-color: transparent;
+
+        &__black {
+            border: 1px solid con.$black;
+            color: con.$black;
+        }
+
+        &__white {
+            border: 1px solid con.$white;
+            color: con.$white;
+        }
+    }
+
+    &--arrow {
+        height: auto;
+        h2 {
+            &::after {
+                content: "";
+                display: inline-block;
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 19px 11px 0 11px;
+                border-color: con.$white transparent transparent transparent;
+                margin: 0 0 0 fun.toRem(17);
+            }
+        }
+
+    }
+
+    &__dropdown {
+        list-style: none;
+
+        li {
+            a {
+                font-family: 'Publico Banner Ultra';
+                font-size: fun.toRem(17);
+                line-height: fun.toRem(29);
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                color: con.$white;
+                text-decoration: unset;
+                @media screen and (min-width: 1280px){
+                    font-size: fun.toRem(25);
+                    line-height: fun.toRem(47);
+                }
+                @media screen and (min-width: 1560px){
+                    font-size: fun.toRem(32);
+                    line-height: fun.toRem(55);
+
+                }
+            }
+        }
+    }
+
+}

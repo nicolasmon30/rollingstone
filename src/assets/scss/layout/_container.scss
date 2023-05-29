@@ -1,0 +1,17 @@
+.container{
+    width: 100%;
+    max-width: calc(100% - 32px);
+    margin: 0 auto;
+    @media screen and (min-width : 1199px){
+        max-width: 80%;
+    }
+    &--left{
+        @media screen and (min-width : 1024px){
+            max-width: calc(100% - 16px);
+            margin: 0 0 0 auto;
+        }
+        @media screen and (min-width : 1199px){
+            max-width: calc(100% - 10%);
+        }
+    }
+}

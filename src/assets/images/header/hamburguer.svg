@@ -1,0 +1,11 @@
+<svg id="Componente_1_1" data-name="Componente 1 – 1" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Elipse_1" data-name="Elipse 1" fill="none" stroke="#fff" stroke-width="1">
+    <circle cx="15" cy="15" r="15" stroke="none"/>
+    <circle cx="15" cy="15" r="14.5" fill="none"/>
+  </g>
+  <g id="Grupo_29" data-name="Grupo 29" transform="translate(-13 -18)">
+    <line id="Línea_5" data-name="Línea 5" x2="19" transform="translate(18.5 28.5)" fill="none" stroke="#fff" stroke-width="1"/>
+    <line id="Línea_6" data-name="Línea 6" x2="19" transform="translate(18.5 33)" fill="none" stroke="#fff" stroke-width="1"/>
+    <line id="Línea_7" data-name="Línea 7" x2="19" transform="translate(18.5 37.5)" fill="none" stroke="#fff" stroke-width="1"/>
+  </g>
+</svg>

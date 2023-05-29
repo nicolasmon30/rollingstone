@@ -27,10 +27,10 @@ export const Header = () => {
             >
                 <div className="container">
                     <div className="header__hamburguer" onClick={handleOpenMenu}>
-                        <img src="/public/assets/images/header/hamburguer.svg" alt="" />
+                        <img src="/assets/images/header/hamburguer.svg" alt="" />
                     </div>
                     <div className="header__logo">
-                        <img src="/public/assets/images/header/logo.svg" alt="" />
+                        <img src="/assets/images/header/logo.svg" alt="" />
                     </div>
                     <div className="header__title">
                         <h1>

@@ -19,13 +19,13 @@ export const Banner = () => {
                 pagination: false
             }}>
                 <SplideSlide>
-                    <img src="/public/assets/images/banner/foofigthers.jpg" alt="Foo Figthers" title='Foo Figthers' />
+                    <img src="/assets/images/banner/foofigthers.jpg" alt="Foo Figthers" title='Foo Figthers' />
                 </SplideSlide>
                 <SplideSlide>
-                    <img src="/public/assets/images/banner/rosalia.jpg" alt="La Rosalia" title='La Rosalia' />
+                    <img src="/assets/images/banner/rosalia.jpg" alt="La Rosalia" title='La Rosalia' />
                 </SplideSlide>
                 <SplideSlide>
-                    <img src="/public/assets/images/banner/fitopaez.jpg" alt="Fito Paez" title='Fito Paez' />
+                    <img src="/assets/images/banner/fitopaez.jpg" alt="Fito Paez" title='Fito Paez' />
                 </SplideSlide>
             </Splide>
             <div className="banner__menu">

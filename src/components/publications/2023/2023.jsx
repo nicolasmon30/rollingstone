@@ -28,7 +28,7 @@ export const Pub2023 = () => {
                 <article className="tabs__panel__box">
                     <div className="tabs__panel__box__thumbnail">
                         <picture>
-                            <img src="/public/assets/images/publications/2023/publication1.jpg" alt="Publiaction 1" title='Publication 1' />
+                            <img src="/assets/images/publications/2023/publication1.jpg" alt="Publiaction 1" title='Publication 1' />
                         </picture>
                     </div>
                     <div className="tabs__panel__box__body">
@@ -40,7 +40,7 @@ export const Pub2023 = () => {
                 <article className="tabs__panel__box">
                     <div className="tabs__panel__box__thumbnail">
                         <picture>
-                            <img src="/public/assets/images/publications/2023/publication2.jpg" alt="Publiaction 2" title='Publication 2' />
+                            <img src="/assets/images/publications/2023/publication2.jpg" alt="Publiaction 2" title='Publication 2' />
                         </picture>
                     </div>
                     <div className="tabs__panel__box__body">
@@ -52,7 +52,7 @@ export const Pub2023 = () => {
                 <article className="tabs__panel__box">
                     <div className="tabs__panel__box__thumbnail">
                         <picture>
-                            <img src="/public/assets/images/publications/2023/publication3.jpg" alt="Publiaction 3" title='Publication 3' />
+                            <img src="/assets/images/publications/2023/publication3.jpg" alt="Publiaction 3" title='Publication 3' />
                         </picture>
                     </div>
                     <div className="tabs__panel__box__body">
@@ -64,7 +64,7 @@ export const Pub2023 = () => {
                 <article className="tabs__panel__box">
                     <div className="tabs__panel__box__thumbnail">
                         <picture>
-                            <img src="/public/assets/images/publications/2023/publication4.jpg" alt="Publiaction 4" title='Publication 4' />
+                            <img src="/assets/images/publications/2023/publication4.jpg" alt="Publiaction 4" title='Publication 4' />
                         </picture>
                     </div>
                     <div className="tabs__panel__box__body">
@@ -76,7 +76,7 @@ export const Pub2023 = () => {
                 <article className="tabs__panel__box">
                     <div className="tabs__panel__box__thumbnail">
                         <picture>
-                            <img src="/public/assets/images/publications/2023/publication5.jpg" alt="Publiaction 5" title='Publication 5' />
+                            <img src="/assets/images/publications/2023/publication5.jpg" alt="Publiaction 5" title='Publication 5' />
                         </picture>
                     </div>
                     <div className="tabs__panel__box__body">
@@ -88,7 +88,7 @@ export const Pub2023 = () => {
                 <article className="tabs__panel__box">
                     <div className="tabs__panel__box__thumbnail">
                         <picture>
-                            <img src="/public/assets/images/publications/2023/publication6.jpg" alt="Publiaction 6" title='Publication 6' />
+                            <img src="/assets/images/publications/2023/publication6.jpg" alt="Publiaction 6" title='Publication 6' />
                         </picture>
                     </div>
                     <div className="tabs__panel__box__body">

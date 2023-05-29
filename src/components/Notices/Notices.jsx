@@ -12,7 +12,7 @@ export const Notices = () => {
                         <a href="https://es.rollingstone.com/jeff-beck-el-virtuoso-de-la-guitarra-muere-a-los-78-anos/" target='_blank'>
                             <div className="post__thumbnail">
                                 <picture>
-                                    <img src="/public/assets/images/notices/notice1.jpg" alt="Jeff Beck, el virtuoso de la guitarra, muere a los 78 años" title="Jeff Beck, el virtuoso de la guitarra, muere a los 78 años"/>
+                                    <img src="/assets/images/notices/notice1.jpg" alt="Jeff Beck, el virtuoso de la guitarra, muere a los 78 años" title="Jeff Beck, el virtuoso de la guitarra, muere a los 78 años"/>
                                 </picture>
                             </div>
                             <div className="post__body">
@@ -37,7 +37,7 @@ export const Notices = () => {
                         <a href="https://es.rollingstone.com/barbie-anuncia-su-soundtrack-lleno-de-estrellas-y-presenta-su-trailer-oficial/" target='_blank'>
                             <div className="post__thumbnail">
                                 <picture>
-                                    <img src="/public/assets/images/notices/notice2.jpg" alt="Barbie anuncia su soundtrack lleno de estrellas " title="Barbie anuncia su soundtrack lleno de estrellas " />
+                                    <img src="/assets/images/notices/notice2.jpg" alt="Barbie anuncia su soundtrack lleno de estrellas " title="Barbie anuncia su soundtrack lleno de estrellas " />
                                 </picture>
                             </div>
                             <div className="post__body">
@@ -62,7 +62,7 @@ export const Notices = () => {
                         <a href="https://es.rollingstone.com/florida-endurece-sus-politicas-antiinmigrantes/" target='_blank'>
                             <div className="post__thumbnail">
                                 <picture>
-                                    <img src="/public/assets/images/notices/notice3.jpg" alt="Florida Endurece sus políticas antiinmigrantes" title="Florida Endurece sus políticas antiinmigrantes" />
+                                    <img src="/assets/images/notices/notice3.jpg" alt="Florida Endurece sus políticas antiinmigrantes" title="Florida Endurece sus políticas antiinmigrantes" />
                                 </picture>
                             </div>
                             <div className="post__body">

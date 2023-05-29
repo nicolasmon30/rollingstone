@@ -2,7 +2,7 @@ export const Information = () => {
     return (
         <section className="information">
             <div className="information__bg">
-                <img src="../../src/assets/images/information/rosalia.jpg" alt="La Rosalia" title="La Rosalia" />
+                <img src="/public/assets/images/information/rosalia.jpg" alt="La Rosalia" title="La Rosalia" />
             </div>
             <div className="information__content">
                 <div className="container">

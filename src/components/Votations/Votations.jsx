@@ -30,7 +30,7 @@ export const Votations = () => {
         <>
             <section id="votaciones" className="votations">
                 <div className="votations__bg">
-                    <img src="../../src/assets/images/votations/bg.jpg" alt="" />
+                    <img src="/public/assets/images/votations/bg.jpg" alt="" />
                 </div>
                 <div className="container">
                     <div className="title">

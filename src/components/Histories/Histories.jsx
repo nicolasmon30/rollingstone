@@ -52,7 +52,7 @@ export const Histories = () => {
                     <article className="history">
                         <a href="">
                             <picture className="history__thumbnail">
-                                <img src="../../src/assets/images/histories/rosalia.jpg" alt="La Rosalia" title='La Rosalia' />
+                                <img src="/public/assets/images/histories/rosalia.jpg" alt="La Rosalia" title='La Rosalia' />
                             </picture>
                             <div className="history__body">
                                 <h3>
@@ -64,7 +64,7 @@ export const Histories = () => {
                     <article className="history">
                         <a href="">
                             <picture className="history__thumbnail">
-                                <img src="../../src/assets/images/histories/nodal.jpg" alt="Nodal" title='Nodal' />
+                                <img src="/public/assets/images/histories/nodal.jpg" alt="Nodal" title='Nodal' />
                             </picture>
                             <div className="history__body">
                                 <h3>
@@ -76,7 +76,7 @@ export const Histories = () => {
                     <article className="history">
                         <a href="">
                             <picture className="history__thumbnail">
-                                <img src="../../src/assets/images/histories/residente.jpg" alt="Residente" title='Residente' />
+                                <img src="/public/assets/images/histories/residente.jpg" alt="Residente" title='Residente' />
                             </picture>
                             <div className="history__body">
                                 <h3>
@@ -88,7 +88,7 @@ export const Histories = () => {
                     <article className="history">
                         <a href="">
                             <picture className="history__thumbnail">
-                                <img src="../../src/assets/images/histories/ile.jpg" alt="Ile" title='Ile' />
+                                <img src="/public/assets/images/histories/ile.jpg" alt="Ile" title='Ile' />
                             </picture>
                             <div className="history__body">
                                 <h3>
@@ -137,7 +137,7 @@ export const Histories = () => {
                             <article className="history">
                                 <a href="https://es.rollingstone.com/moto-mami-el-camino-de-rosalia-a-su-propia-emancipacion/">
                                     <picture className="history__thumbnail">
-                                        <img src="../../src/assets/images/histories/rosalia.jpg" alt="La Rosalia" title='La Rosalia' />
+                                        <img src="/public/assets/images/histories/rosalia.jpg" alt="La Rosalia" title='La Rosalia' />
                                     </picture>
                                     <div className="history__body">
                                         <h3>
@@ -151,9 +151,9 @@ export const Histories = () => {
                             <article className="history">
                                 <a href="https://www.youtube.com/watch?v=Re0xlGfVGL8" target="_blank">
                                     <picture className="history__thumbnail">
-                                        <img src="../../src/assets/images/histories/nodal.jpg" alt="Nodal" title='Nodal' />
+                                        <img src="/public/assets/images/histories/nodal.jpg" alt="Nodal" title='Nodal' />
                                         <div className="history__play">
-                                            <img src="../../src/assets/images/icons/play.svg" alt="" />
+                                            <img src="/public/assets/images/icons/play.svg" alt="" />
                                         </div>
                                     </picture>
                                     <div className="history__body">
@@ -168,7 +168,7 @@ export const Histories = () => {
                             <article className="history">
                                 <a href="https://es.rollingstone.com/residente-el-arte-por-encima-del-negocio-la-entrevista-rolling-stone/" target="_blank">
                                     <picture className="history__thumbnail">
-                                        <img src="../../src/assets/images/histories/residente.jpg" alt="Residente" title='Residente' />
+                                        <img src="/public/assets/images/histories/residente.jpg" alt="Residente" title='Residente' />
                                     </picture>
                                     <div className="history__body">
                                         <h3>
@@ -182,7 +182,7 @@ export const Histories = () => {
                             <article className="history">
                                 <a href="https://es.rollingstone.com/ile-pura-crudeza-nada-de-ligereza/" target="_blank">
                                     <picture className="history__thumbnail">
-                                        <img src="../../src/assets/images/histories/ile.jpg" alt="Ile" title='Ile' />
+                                        <img src="/public/assets/images/histories/ile.jpg" alt="Ile" title='Ile' />
                                     </picture>
                                     <div className="history__body">
                                         <h3>

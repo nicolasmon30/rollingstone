@@ -29,7 +29,7 @@ export const Menu = ({ showMenu, handleCloseModal }) => {
 
                         </div>
                         <div className="menu__bottom">
-                            <img src="../src/assets/images/header/logo.svg" alt="" />
+                            <img src="../src/assets/imagesheader/logo.svg" alt="" />
                         </div>
                     </motion.div>
 

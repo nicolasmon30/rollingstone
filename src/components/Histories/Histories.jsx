@@ -50,7 +50,7 @@ export const Histories = () => {
                 </div>
                 <div className="histories__row">
                     <article className="history">
-                        <a href="">
+                        <a href="https://es.rollingstone.com/moto-mami-el-camino-de-rosalia-a-su-propia-emancipacion/">
                             <picture className="history__thumbnail">
                                 <img src="/assets/images/histories/rosalia.jpg" alt="La Rosalia" title='La Rosalia' />
                             </picture>
@@ -62,9 +62,12 @@ export const Histories = () => {
                         </a>
                     </article>
                     <article className="history">
-                        <a href="">
+                        <a href="https://www.youtube.com/watch?v=Re0xlGfVGL8" target="_blank">
                             <picture className="history__thumbnail">
                                 <img src="/assets/images/histories/nodal.jpg" alt="Nodal" title='Nodal' />
+                                <div className="history__play">
+                                    <img src="/assets/images/icons/play.svg" alt="" />
+                                </div>
                             </picture>
                             <div className="history__body">
                                 <h3>
@@ -74,7 +77,7 @@ export const Histories = () => {
                         </a>
                     </article>
                     <article className="history">
-                        <a href="">
+                        <a href="https://es.rollingstone.com/residente-el-arte-por-encima-del-negocio-la-entrevista-rolling-stone/" target="_blank">
                             <picture className="history__thumbnail">
                                 <img src="/assets/images/histories/residente.jpg" alt="Residente" title='Residente' />
                             </picture>
@@ -86,7 +89,7 @@ export const Histories = () => {
                         </a>
                     </article>
                     <article className="history">
-                        <a href="">
+                        <a href="https://es.rollingstone.com/ile-pura-crudeza-nada-de-ligereza/" target="_blank">
                             <picture className="history__thumbnail">
                                 <img src="/assets/images/histories/ile.jpg" alt="Ile" title='Ile' />
                             </picture>
@@ -122,7 +125,7 @@ export const Histories = () => {
                             gap: '60px',
                             // perMove: 1,
                             mediaQuery: 'min',
-                            breakpoints : {
+                            breakpoints: {
                                 1280: {
                                     autoHeight: true,
                                     fixedWidth: '720px'
